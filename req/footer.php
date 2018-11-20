@@ -1,7 +1,7 @@
 <footer>
     <section>
         <h1>Contacts</h1>
-    
+        
         <form>
             <input type="text" placeholder="Your name:">
             <input type="text" placeholder="Your email:">
