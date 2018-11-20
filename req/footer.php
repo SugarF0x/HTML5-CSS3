@@ -2,13 +2,13 @@
     <section>
         <h1>Contacts</h1>
     
-        <div class="inputs">
+        <form>
             <input type="text" placeholder="Your name:">
             <input type="text" placeholder="Your email:">
             <textarea name="" id="" cols="30" rows="10" placeholder="Your message:"></textarea>
             
             <input type="submit" value="Submit" id="submit">
-        </div>
+        </form>
         
         <div class="contacts">
             <ul>

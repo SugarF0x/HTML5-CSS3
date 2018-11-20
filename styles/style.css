@@ -53,11 +53,11 @@ footer h1 {
   line-height: 36px;
   text-align: center;
 }
-footer section .inputs {
+footer section form {
   display: inline-block;
   width: 500px;
 }
-footer section .inputs input {
+footer section form input {
   border-radius: 5px;
   width: 500px;
   display: table;
@@ -67,7 +67,7 @@ footer section .inputs input {
   height: 40px;
   margin-bottom: 15px;
 }
-footer section .inputs #submit {
+footer section form #submit {
   border-radius: 5px;
   background-color: #ffffff;
   width: 140px;
@@ -79,7 +79,7 @@ footer section .inputs #submit {
   text-align: center;
   margin: 0 auto;
 }
-footer section .inputs textarea {
+footer section form textarea {
   border-radius: 5px;
   height: 170px;
   width: 500px;
