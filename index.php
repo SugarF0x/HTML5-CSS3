@@ -3,81 +3,206 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
-        <title>Макет и всё такое</title>
+        <title>Макет переделанный</title>
     </head>
 
     <body>
-        <?php require('req/script.php'); ?>
         <?php require('req/header.php'); ?>
         
         <main>
-            <div class="mainDiv" id="about">
-               <section>
-                    <div>
-                        <!-- Empty div for the box -->
-                    </div>
-                   
-                    <h1>About your product</h1>
-                    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt deleniti ullam inventore ab excepturi nisi quam odit, recusandae esse earum, non doloribus officiis, eum ipsum rerum hic cum molestias possimus repudiandae enim quia pariatur. Esse sint quia aperiam qui nisi.</p>
-                    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil officia voluptatum ipsam, iusto earum harum accusamus saepe omnis! Error natus sed rem temporibus enim! Culpa perferendis rerum, repellat nisi quaerat omnis, error, quas aut odio, beatae quasi est natus? Temporibus?</p>
-               </section>                
-            </div>
-            
-            <div class="mainDiv" id="dignity">
-                <h1>Dignity and pluses of the product</h1>
+            <section>
+               <div id="aboutImage">
+                    <!-- A placeholder for the image -->
+                </div>
                 
-                <?php for ($i = 1; $i <= 6; $i++) : ?>
-                    <section>
-                        <img src="img/Layer%202.png" alt="">
+                <h1 style="text-align: left;">About yor product</h1>
+                
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae illum eum repellendus consequatur quasi. Quae dolorum illum, porro aut tenetur. Animi laborum, aspernatur optio molestiae, cupiditate error porro sint quae quos ea iure mollitia rerum sapiente ullam quasi neque exercitationem!
+                </p>
+                
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat modi facilis, magni maiores aperiam assumenda nemo aut voluptatem qui repellendus!
+                </p>
+                
+                <div class="cls"></div>
+            </section>
+                
+            <section id="pluses">
+                <h1>Dignity and pluses</h1>
+                
+                <ul>
+                    <li>
+                        <img src="img/Layer%202.png" alt="plus">
                         
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptatum iure nisi vel fugit similique reiciendis expedita nemo, magni magnam dicta ea maiores culpa necessitatibus soluta voluptates praesentium, sed dolor ipsa qui! Aut nesciunt illum maiores ab, expedita eius, debitis?
+                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
                         </p>
-                    </section>
-                <?php endfor ?>
-            </div>
+                    </li>
+                    <li><img src="img/Layer%202.png" alt="plus">
+                        
+                        <p>
+                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
+                        </p>
+                    </li>
+                    <li><img src="img/Layer%202.png" alt="plus">
+                        
+                        <p>
+                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
+                        </p>
+                    </li>
+                </ul>
+                
+                <ul>
+                    <li>
+                        <img src="img/Layer%202.png" alt="plus">
+                        
+                        <p>
+                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
+                        </p>
+                    </li>
+                    <li><img src="img/Layer%202.png" alt="plus">
+                        
+                        <p>
+                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
+                        </p>
+                    </li>
+                    <li><img src="img/Layer%202.png" alt="plus">
+                        
+                        <p>
+                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
+                        </p>
+                    </li>
+                </ul>
+                
+                <div class="cls"></div>
+            </section>
             
-            <div class="mainDiv" id="screenshots">
+            <section id="screenshots">
                 <h1>Screenshots</h1>
                 
-                <?php for ($i=1; $i<=4; $i++): ?>
-                    <section>
-                        <div>
-                            <!-- Empty div for the box -->
-                        </div>
-                        
-                        <h1>Desc of screenshot</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, vel explicabo ratione at tenetur, perspiciatis soluta hic odio officiis facilis?
-                        </p>
-                    </section>
-                <?php endfor ?>
-            </div>
+                <article>
+                    <div>
+                        <!-- Placeholder for the image -->
+                    </div>
+                    
+                    <h2>The Description of the image</h2>
+                    
+                    <p>
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
+                    </p>
+                </article>
+                
+                <article>
+                    <div>
+                        <!-- Placeholder for the image -->
+                    </div>
+                    
+                    <h2>The Description of the image</h2>
+                    
+                    <p>
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
+                    </p>
+                </article>
+                
+                <article>
+                    <div>
+                        <!-- Placeholder for the image -->
+                    </div>
+                    
+                    <h2>The Description of the image</h2>
+                    
+                    <p>
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
+                    </p>
+                </article>
+                
+                <article>
+                    <div>
+                        <!-- Placeholder for the image -->
+                    </div>
+                    
+                    <h2>The Description of the image</h2>
+                    
+                    <p>
+                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
+                    </p>
+                </article>
+                
+                <div class="cls"></div>
+            </section>
             
-            <div class="mainDiv" id="reviews">
+            <section id="reviews">
                 <h1>Reviews</h1>
                 
-                <?php for ($i=1; $i<=4; $i++): ?>
-                    <section>
-                        <div>
-                            <!-- Empty fic for the circle -->
-                        </div>
-                        
-                        <article>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quod saepe repellendus voluptatem fuga aspernatur modi ad pariatur assumenda excepturi.
-                            </p>
-                            <p>
-                                Laurence S.
-                            </p>
-                        </article>
-                    </section>
-                <?php endfor ?>
-            </div>
+                <article>
+                    <div class="img">
+                        <!-- Placeholder for the circle image -->
+                    </div>
+                    
+                    <div id="textbox">
+                        <p>
+                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
+                        </p>
+
+                        <h3>
+                            Lourens S.
+                        </h3>
+                    </div>
+                </article>
+                
+                <article>
+                    <div class="img">
+                        <!-- Placeholder for the circle image -->
+                    </div>
+                    
+                    <div id="textbox">
+                        <p>
+                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
+                        </p>
+
+                        <h3>
+                            Lourens S.
+                        </h3>
+                    </div>
+                </article>
+                
+                <article>
+                    <div class="img">
+                        <!-- Placeholder for the circle image -->
+                    </div>
+                    
+                    <div id="textbox">
+                        <p>
+                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
+                        </p>
+
+                        <h3>
+                            Lourens S.
+                        </h3>
+                    </div>
+                </article>
+                
+                <article>
+                    <div class="img">
+                        <!-- Placeholder for the circle image -->
+                    </div>
+                    
+                    <div id="textbox">
+                        <p>
+                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
+                        </p>
+
+                        <h3>
+                            Lourens S.
+                        </h3>
+                    </div>
+                </article>
+                
+                <div class="cls"></div>
+            </section>
             
-            <div class="mainDiv" id="buy">
+            <section id="buy">
                 <h1>Buy now</h1>
                 
                 <div>
@@ -104,7 +229,7 @@
                                     <?php
                                         for ($i=1; $i<=$ls['bullets']; $i++):
                                     ?>
-                                        <li><?php echo generateRandomString(rand(10,20)) ?></li>
+                                        <li><?php echo $texts[$i-1] ?></li>
                                     <?php
                                         endfor;
                                     ?>
@@ -116,7 +241,9 @@
                             </section>
                     <?php endforeach ?>
                 </div>
-            </div>
+                
+                <div class="cls"></div>
+            </section>
         </main>
         
         <?php require('req/footer.php'); ?>

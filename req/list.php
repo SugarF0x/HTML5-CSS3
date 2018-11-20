@@ -14,5 +14,20 @@
             'bullets' => 12
         ]
         
+    ];
+
+    $texts = [
+        'Porro officia cumque sint deleniti;',
+        'Тemo facere rem vitae odit;',
+        'Cum odio, iste quia doloribus autem;',
+        'Aperiam nulla ea neque.',
+        'Porro officia cumque sint deleniti;',
+        'Тemo facere rem vitae odit;',
+        'Cum odio, iste quia doloribus autem;',
+        'Aperiam nulla ea neque.',
+        'Porro officia cumque sint deleniti;',
+        'Тemo facere rem vitae odit;',
+        'Cum odio, iste quia doloribus autem;',
+        'Aperiam nulla ea neque.'
     ]
 ?>

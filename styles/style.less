@@ -2,6 +2,7 @@ body {
     width: 1280px;
     height: 323px;
     margin: 0 auto;
+    padding: 0;
 }
 
 * {
@@ -9,19 +10,14 @@ body {
     font-weight: 400;
 }
 
-h1 {
-    color: #445161;
-    font-size: 30px;
-    line-height: 36px;
-}
-
 .cls {
-    clear:both;
+    clear: both;
 }
 
-header{
+//----------------------------------------------\\
+
+header {
     background-color: #445161;
-    padding: 50px;
     section {
         color: #ffffff;
         text-align: left;
@@ -30,6 +26,8 @@ header{
             color: #ffffff;
             font-size: 60px;
             margin: 0;
+            margin-bottom: 25px;
+            text-align: left;
         }
         ul {
             list-style-image: url(../img/check%20icon.png);
@@ -51,13 +49,12 @@ header{
 footer {
     background-color:  #445161;
     color:  #ffffff;
-    padding: 50px 250px;
+    padding: 0 180px;
     h1 {
         margin: 0;
         color:  #ffffff;
         margin-bottom: 15px;
         font-size: 30px;
-        font-weight: 400;
         line-height: 36px;
         text-align: center;
     }
@@ -80,7 +77,6 @@ footer {
                 background-color: #ffffff;
                 width: 140px;
                 height: 40px;
-                font-family: Arial;
                 color: #445162;
                 font-size: 16px;
                 font-weight: 700;
@@ -106,132 +102,162 @@ footer {
                 list-style: none;
                 li {
                     margin-bottom: 20px;
+                    a {
+                        width: 44px; 
+                        height: 44px;
+                        img {
+                            width: inherit;
+                            height: inherit;
+                        }
+                    }
                 }
             }
         }
     }
 }
 
-main {
-    div {
-        h1 {
-            text-align: center;
+//----------------------------------------------\\
+
+h1 {
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    color:  #333333;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+section {
+    padding: 50px;
+}
+
+//----------------------------------------------\\
+
+#aboutImage {
+    background-color:  #445161;
+    width: 430px;
+    height: 245px;
+    float: right;
+    margin-left: 75px;
+}
+
+#pluses {
+    ul {
+        padding: 0;
+        width: 49%;
+        min-height: 100px;
+        display: inline-block;
+        li {
+            list-style-type: none;
         }
-        section {
-            h1 {
-                text-align: left;
-            }
-        }
+    }
+    img {
+        padding: 0.5%;
+        background-color: #445161;
+        float: left;
     }
     p {
-        color: #333333;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: left;
+        padding-left: 7%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding-right: 5%;
     }
-    #about {
-        section {
-            div {
-                background-color:  #445161;
-                width: 400px;
-                height: 200px;
-                float: right;
-                margin-left: 10%;
-            }
+}
+
+#screenshots {
+    article {
+        width: 49%;
+        display: inline-block;
+        margin-bottom: 25px;
+        div {
+            background-color:  #445161;
+            width: 200px;
+            height: 150px;
+            float: left;
+        }
+        p, h2 {
+            margin: 0;
+            margin-bottom: 10px;
+            margin-left: 210px;
         }
     }
-    #dignity {
-        section {
-            width: 49.5%;
-            display: inline-block;
-            min-height: 100px;
-            img {
-                padding: 0.5%;
-                background-color: #445161;
-                float: left;
-            }
-            p {
-                padding-left: 5%;
-                margin: 0;
-                margin-bottom: 35px;
-                padding-right: 5%;
-            }
+}
+
+#reviews {
+    article {
+        min-height: 75px;
+        margin-bottom: 20px;
+        margin: 10px 10px;
+        width: 48%;
+        display: inline-block;
+        .img {
+            border-radius: 50%;
+            background-color:  #445161;
+            width: 75px;
+            height: 75px;
+            float: left;
         }
-    }
-    #screenshots {
-        section {
-            width: 49.5%;
-            display: inline-block;
-            min-height: 180px;
-            div {
-                background-color:  #445161;
-                width: 200px;
-                height: 150px;
-                float: left;
-            }
+        #textbox {
+            margin-left: 90px;
+            background-color: lightgray;
+            position: relative;
+            padding: 10px;
+            border-radius: 10px;
             p {
-                margin: 0;
-                margin-bottom: 35px;
-                padding-left: 220px;
-                padding-right: 5%;
-            }
-            h1 {
-                margin: 0;
-                margin-bottom: 5px;
-                padding-left: 220px;
-                padding-right: 5%;
-            }
-        }
-    }
-    #reviews {
-        section {
-            width: 49.5%;
-            display: inline-block;
-            min-height: 100px;
-            margin-bottom: 35px;
-            div {
-                border-radius: 50%;
-                background-color:  #445161;
-                width: 75px;
-                height: 75px;
-                float: left;
-            }
-            article {
-                padding-left: 100px;
-                padding-right: 10%;
-            }
-            p {
-                background-color: #DCDCDC;
-                margin: 0;
-                padding: 5%;
+                color: #333333;
                 font-size: 14px;
                 font-style: italic;
                 line-height: 18px;
+                margin-top: 0;
             }
-            p:last-child {
-                margin-top: -25px;
-                color:  #989898;
-                font-style: normal;
+            h3 {
+                color: #989898;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: left;
+                margin: 0;
             }
         }
+        #textbox:before {
+            position: absolute;
+            left: -10px;
+            top: 25px;
+            content: '';
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 10px solid lightgray;
+        }
     }
-    #buy {
+}
+
+#buy {
         div {
             text-align: center;
             section {
+                padding: 0;
                 display: inline-block;
                 text-align: left;
                 background-color: #445161;
-                outline: 1px solid #445161;
                 width: 25%;
                 margin: 0 35px;
+                border: 3px solid #445161;
+                border-radius: 15px;
                 h1 { // name
                     color: #ffffff;
                     font-size: 24px;
                     line-height: 30px;
                     text-align: center;
+                    margin: 0;
                 }
                 h2 { // price
+                    margin: 0;
                     background-color: #ffffff;
                     text-align: center;
                     color:  #445162;
@@ -246,6 +272,7 @@ main {
                         font-size: 14px;
                         line-height: 24px;
                     }
+                    margin: 10px;
                 }
                 a {
                     display: block;
@@ -263,13 +290,12 @@ main {
             }
         }
     }
-}
 
-main .mainDiv:nth-child(2n) {
+//----------------------------------------------\\
+
+main section:nth-child(2n-1) {
     background-color: #ffffff;
-    padding: 50px;
 }
-main .mainDiv:nth-child(2n-1) {
+main section:nth-child(2n) {
     background-color: #f5f5f5;
-    padding: 50px;
 }

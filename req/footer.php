@@ -1,7 +1,7 @@
 <footer>
-    <h1>Contacts</h1>
+    <section>
+        <h1>Contacts</h1>
     
-    <section>        
         <div class="inputs">
             <input type="text" placeholder="Your name:">
             <input type="text" placeholder="Your email:">
@@ -28,8 +28,22 @@
                     <img src="../img/phone%20icon.png" alt="phone">
                     80 00 4568 55 55
                 </li>
-                <li>
-                    <img src="../img/social%20buttons.png" alt="" style="width: 225px;">
+                <li>                    
+                    <a href="#">
+                        <img src="../img/facebook.png" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="../img/google.png" alt="google">
+                    </a>
+                    <a href="#">
+                        <img src="../img/instagram.png" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="../img/twitter.png" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="../img/yt.png" alt="youtube">
+                    </a>
                 </li>
             </ul>
         </div>
