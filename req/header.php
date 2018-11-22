@@ -1,7 +1,7 @@
 <header>
     <section>
         <div>
-            <!-- an empty div for the box -->
+            <iframe width="469" height="214" src="https://www.youtube.com/embed/8ZcmTl_1ER8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <h1>Product Name</h1>
