@@ -3,8 +3,8 @@
         <h1>Contacts</h1>
         
         <form>
-            <input type="text" name="email" placeholder="Your name:">
-            <input type="email" name="email" placeholder="Your email:">
+            <input type="text" name="email" placeholder="Your name:" required>
+            <input type="email" name="email" placeholder="Your email:" required>
             <textarea name="message" cols="30" rows="10" placeholder="Your message:"></textarea>
             
             <input type="submit" value="Submit" class="submit">
