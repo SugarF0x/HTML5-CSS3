@@ -11,7 +11,7 @@
         
         <main>
             <section>
-               <div id="aboutImage">
+               <div class="aboutImage">
                     <!-- A placeholder for the image -->
                 </div>
                 
@@ -28,7 +28,7 @@
                 <div class="cls"></div>
             </section>
                 
-            <section id="pluses">
+            <section class="pluses">
                 <h1>Dignity and pluses</h1>
                 
                 <ul>
@@ -78,7 +78,7 @@
                 <div class="cls"></div>
             </section>
             
-            <section id="screenshots">
+            <section class="screenshots">
                 <h1>Screenshots</h1>
                 
                 <article>
@@ -132,7 +132,7 @@
                 <div class="cls"></div>
             </section>
             
-            <section id="reviews">
+            <section class="reviews">
                 <h1>Reviews</h1>
                 
                 <article>
@@ -140,7 +140,7 @@
                         <!-- Placeholder for the circle image -->
                     </div>
                     
-                    <div id="textbox">
+                    <div class="textbox">
                         <p>
                             Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                         </p>
@@ -156,7 +156,7 @@
                         <!-- Placeholder for the circle image -->
                     </div>
                     
-                    <div id="textbox">
+                    <div class="textbox">
                         <p>
                             Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                         </p>
@@ -172,7 +172,7 @@
                         <!-- Placeholder for the circle image -->
                     </div>
                     
-                    <div id="textbox">
+                    <div class="textbox">
                         <p>
                             Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                         </p>
@@ -188,7 +188,7 @@
                         <!-- Placeholder for the circle image -->
                     </div>
                     
-                    <div id="textbox">
+                    <div class="textbox">
                         <p>
                             Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                         </p>
@@ -202,7 +202,7 @@
                 <div class="cls"></div>
             </section>
             
-            <section id="buy">
+            <section class="buy">
                 <h1>Buy now</h1>
                 
                 <div>

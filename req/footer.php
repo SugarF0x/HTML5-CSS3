@@ -3,11 +3,11 @@
         <h1>Contacts</h1>
         
         <form>
-            <input type="text" placeholder="Your name:">
-            <input type="text" placeholder="Your email:">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message:"></textarea>
+            <input type="text" name="email" placeholder="Your name:">
+            <input type="email" name="email" placeholder="Your email:">
+            <textarea name="message" cols="30" rows="10" placeholder="Your message:"></textarea>
             
-            <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="Submit" class="submit">
         </form>
         
         <div class="contacts">
