@@ -138,7 +138,7 @@
                 
                 <article>
                     <div class="img">
-                        <!-- Placeholder for the circle image -->
+                        <i class="far fa-user-circle"></i>
                     </div>
                     
                     <div class="textbox">
@@ -154,7 +154,7 @@
                 
                 <article>
                     <div class="img">
-                        <!-- Placeholder for the circle image -->
+                        <i class="far fa-user-circle"></i>
                     </div>
                     
                     <div class="textbox">
@@ -170,7 +170,7 @@
                 
                 <article>
                     <div class="img">
-                        <!-- Placeholder for the circle image -->
+                        <i class="far fa-user-circle"></i>
                     </div>
                     
                     <div class="textbox">
@@ -186,7 +186,7 @@
                 
                 <article>
                     <div class="img">
-                        <!-- Placeholder for the circle image -->
+                        <i class="far fa-user-circle"></i>
                     </div>
                     
                     <div class="textbox">
