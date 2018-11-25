@@ -102,18 +102,27 @@ footer section .contacts {
   display: inline-block;
 }
 footer section .contacts ul {
+  margin: 0;
   list-style: none;
 }
 footer section .contacts ul li {
-  margin-bottom: 20px;
+  height: 26px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+footer section .contacts ul li img {
+  vertical-align: middle;
 }
 footer section .contacts ul li a {
   width: 44px;
   height: 44px;
+  text-decoration: none;
 }
 footer section .contacts ul li a img {
   width: inherit;
   height: inherit;
+  vertical-align: middle;
 }
 h1 {
   color: #445161;
