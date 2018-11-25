@@ -47,11 +47,48 @@ header section div {
 footer {
   background-color: #445161;
   color: #ffffff;
-  padding: 0 180px;
 }
 footer section {
   width: 800px;
   margin: 0 auto;
+  /*
+        .contacts {
+            vertical-align: top;
+            display: inline-block;
+            ul {
+                margin: 0;
+                list-style: none;
+                li {
+                    height: 26px;
+                    line-height: 24px;
+                    margin-bottom: 12px;
+                    p {
+                        float: left;
+                        margin: 0;
+                        color: white;
+                        margin-left: 10px;
+                        height: 50px;
+                    }
+                    i {
+                        font-size: 1.8em;
+                        float: left;
+                    }
+                    img {
+                        vertical-align: middle;
+                    }
+                    a {
+                        width: 44px; 
+                        height: 44px;
+                        text-decoration: none;
+                        img {
+                            width: inherit;
+                            height: inherit;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }  */
 }
 footer section h1 {
   margin: 0;
@@ -62,8 +99,8 @@ footer section h1 {
   text-align: center;
 }
 footer section form {
-  display: inline-block;
   width: 500px;
+  display: inline-block;
 }
 footer section form input {
   border-radius: 5px;
@@ -98,31 +135,45 @@ footer section form textarea {
   resize: none;
 }
 footer section .contacts {
-  vertical-align: top;
   display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
 }
 footer section .contacts ul {
-  margin: 0;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 footer section .contacts ul li {
-  height: 26px;
-  line-height: 24px;
   margin-bottom: 10px;
-  vertical-align: middle;
+  height: 30px;
 }
-footer section .contacts ul li img {
+footer section .contacts ul li p {
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  color: white;
+}
+footer section .contacts ul li i {
+  display: inline-block;
+  font-size: 1.8em;
   vertical-align: middle;
 }
 footer section .contacts ul li a {
-  width: 44px;
-  height: 44px;
   text-decoration: none;
+  height: 44px;
+  width: 44px;
+  margin-right: 2px;
 }
-footer section .contacts ul li a img {
-  width: inherit;
+footer section .contacts ul li a i {
   height: inherit;
-  vertical-align: middle;
+  width: inherit;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  color: #445161;
+  text-align: center;
+  line-height: 44px;
 }
 h1 {
   color: #445161;
