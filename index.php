@@ -10,12 +10,12 @@
         <?php require('req/header.php'); ?>
         
         <main>
-            <section>
+            <section class="about">
                <div class="aboutImage">
                     <!-- A placeholder for the image -->
                 </div>
                 
-                <h1 style="text-align: left;">About yor product</h1>
+                <h1>About yor product</h1>
                 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae illum eum repellendus consequatur quasi. Quae dolorum illum, porro aut tenetur. Animi laborum, aspernatur optio molestiae, cupiditate error porro sint quae quos ea iure mollitia rerum sapiente ullam quasi neque exercitationem!
