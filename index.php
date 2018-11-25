@@ -34,19 +34,21 @@
                 
                 <ul>
                     <li>
-                        <img src="img/Layer%202.png" alt="plus">
+                        <i class="fas fa-plus-square"></i>
                         
                         <p>
                             Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
                         </p>
                     </li>
-                    <li><img src="img/Layer%202.png" alt="plus">
+                    <li>
+                        <i class="fas fa-plus-square"></i>
                         
                         <p>
                             Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
                         </p>
                     </li>
-                    <li><img src="img/Layer%202.png" alt="plus">
+                    <li>
+                        <i class="fas fa-plus-square"></i>
                         
                         <p>
                             Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
@@ -56,19 +58,21 @@
                 
                 <ul>
                     <li>
-                        <img src="img/Layer%202.png" alt="plus">
+                        <i class="fas fa-plus-square"></i>
                         
                         <p>
                             Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
                         </p>
                     </li>
-                    <li><img src="img/Layer%202.png" alt="plus">
+                    <li>
+                        <i class="fas fa-plus-square"></i>
                         
                         <p>
                             Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
                         </p>
                     </li>
-                    <li><img src="img/Layer%202.png" alt="plus">
+                    <li>
+                        <i class="fas fa-plus-square"></i>
                         
                         <p>
                             Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
