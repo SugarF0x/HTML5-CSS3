@@ -3,8 +3,8 @@
         <h1>Contacts</h1>
         
         <form>
-            <input type="text" name="email" placeholder="Your name:" required>
-            <input type="email" name="email" placeholder="Your email:" required>
+            <input type="text" pattern="^[a-zA-Z]+$" name="name" placeholder="Your name:" required>
+            <input type="email" name="mail" placeholder="Your email:" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             <textarea name="message" cols="30" rows="10" placeholder="Your message:"></textarea>
             
             <input type="submit" value="Submit" class="submit">
