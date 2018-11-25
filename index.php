@@ -12,7 +12,7 @@
         
         <main>
             <section class="about">
-               <div class="aboutImage">
+               <div class="aboutImage placeholderImage">
                     <!-- A placeholder for the image -->
                 </div>
                 
@@ -83,7 +83,7 @@
                 <h1>Screenshots</h1>
                 
                 <article>
-                    <div>
+                    <div class="placeholderImage">
                         <!-- Placeholder for the image -->
                     </div>
                     
@@ -95,7 +95,7 @@
                 </article>
                 
                 <article>
-                    <div>
+                    <div class="placeholderImage">
                         <!-- Placeholder for the image -->
                     </div>
                     
@@ -107,7 +107,7 @@
                 </article>
                 
                 <article>
-                    <div>
+                    <div class="placeholderImage">
                         <!-- Placeholder for the image -->
                     </div>
                     
@@ -119,7 +119,7 @@
                 </article>
                 
                 <article>
-                    <div>
+                    <div class="placeholderImage">
                         <!-- Placeholder for the image -->
                     </div>
                     

@@ -2,6 +2,8 @@
 body {
   margin: 0 auto;
   padding: 0;
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
 }
 * {
   font-family: Arial;
@@ -15,6 +17,9 @@ main section:nth-child(2n-1) {
 }
 main section:nth-child(2n) {
   background-color: #f5f5f5;
+}
+main {
+  margin: 0 5%;
 }
 header {
   background-color: #445161;
@@ -152,6 +157,10 @@ p {
 section {
   padding: 50px;
 }
+.placeholderImage {
+  background-image: url(../img/background-blured.png);
+  background-attachment: fixed;
+}
 .about .aboutImage {
   background-color: #445161;
   width: 430px;
@@ -200,11 +209,11 @@ section {
   margin-left: 210px;
 }
 .reviews article {
-  min-height: 75px;
-  margin-bottom: 20px;
-  margin: 10px 10px;
-  width: 48%;
+  width: 47%;
   display: inline-block;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  margin: 10px 10px;
 }
 .reviews article .img {
   border-radius: 50%;
