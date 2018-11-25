@@ -192,28 +192,33 @@ section {
   padding-right: 5%;
 }
 .screenshots article {
-  width: 49%;
+  width: 47.5%;
   display: inline-block;
-  margin-bottom: 25px;
+  margin: 1% 1%;
+  min-width: 350px;
 }
 .screenshots article div {
   background-color: #445161;
   width: 200px;
   height: 150px;
   float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 .screenshots article p,
 .screenshots article h2 {
   margin: 0;
   margin-bottom: 10px;
-  margin-left: 210px;
+}
+.screenshots article h2 {
+  font-size: 22px;
 }
 .reviews article {
-  width: 47%;
+  width: 47.5%;
   display: inline-block;
   margin-bottom: 25px;
-  box-sizing: border-box;
-  margin: 10px 10px;
+  min-width: 250px;
+  margin: 1% 1%;
 }
 .reviews article .img {
   border-radius: 50%;
