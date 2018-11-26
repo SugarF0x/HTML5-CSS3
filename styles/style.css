@@ -79,6 +79,20 @@ footer section form input {
   line-height: 24px;
   height: 40px;
   margin-bottom: 15px;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+footer section form textarea {
+  border-radius: 5px;
+  height: 170px;
+  width: 500px;
+  color: #445162;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  resize: none;
+  box-sizing: border-box;
+  padding-left: 5px;
 }
 footer section form .submit {
   border-radius: 5px;
@@ -91,16 +105,6 @@ footer section form .submit {
   line-height: 24px;
   text-align: center;
   margin: 0 auto;
-}
-footer section form textarea {
-  border-radius: 5px;
-  height: 170px;
-  width: 500px;
-  color: #445162;
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 15px;
-  resize: none;
 }
 footer section .contacts {
   display: inline-block;
@@ -277,8 +281,8 @@ section {
   display: inline-block;
   text-align: left;
   background-color: #445161;
-  width: 25%;
-  margin: 0 35px;
+  min-width: 300px;
+  margin: 2% 1%;
   border: 3px solid #445161;
   border-radius: 15px;
 }
