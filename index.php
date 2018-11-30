@@ -8,6 +8,9 @@
     </head>
 
     <body>
-    
+        <?php require("req/list.php") ?>
+        <?php require("req/header.php") ?>
+        
+        <?php require("req/footer.php") ?>
     </body>
 </html>
