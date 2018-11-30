@@ -27,6 +27,27 @@
     </div>
     
     <div class="header__main">
-        <!-- иконки стрелок влево и вправо как линки -->
+        <a href="#">
+            <i class="fas fa-angle-left fa-7x"></i>
+        </a>
+        
+        <article>
+            <h2>Unique and Modern Design</h2>
+            <h1>Portfolio PSD Template</h1>
+            
+            <p>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+            </p>
+            
+            <div class="button bold">GET STARTED</div>
+        </article>
+        
+        <a href="#">
+            <i class="fas fa-angle-right fa-7x"></i>
+        </a>
+    </div>
+    
+    <div class="header__bottom">
+        
     </div>
 </header>

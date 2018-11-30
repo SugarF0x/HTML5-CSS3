@@ -6,6 +6,7 @@
 body {
   width: 1920px;
   margin: 0 auto;
+  font-family: Raleway;
 }
 .button {
   display: inline-block;
@@ -21,22 +22,62 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom-width: 3px;
 }
+.button:hover {
+  background-color: #938070;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.button:active {
+  background-color: #897868;
+  border-color: rgba(0, 0, 0, 0.9);
+}
 .bold {
   font-weight: 700;
 }
 .cls {
   clear: both;
 }
+a {
+  text-decoration: none;
+  color: #555;
+}
+a:hover {
+  color: #c7b29a !important;
+}
+p {
+  font-family: Monsterrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 20px 0;
+}
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+article {
+  display: inline-block;
+  text-align: center;
+}
 header {
   background-image: url(../img/header-background.jpg);
   background-size: contain;
   position: relative;
   height: 1024px;
+  color: #fff;
 }
 .header__topbar {
   padding: 40px 375px;
+  width: 100%;
+  box-sizing: border-box;
   line-height: 56px;
   vertical-align: middle;
+  position: absolute;
 }
 .topbar__logo {
   float: left;
@@ -47,9 +88,8 @@ header {
 .topbar__name {
   float: left;
   vertical-align: middle;
-  color: #fff;
-  font-family: Raleway;
   font-size: 34px;
+  color: #fff;
 }
 .topbar__navbar {
   float: right;
@@ -57,20 +97,42 @@ header {
 .topbar__navbar a {
   display: inline-block;
   vertical-align: middle;
-  text-decoration: none;
-  color: #fff;
   margin-right: 30px;
   font-family: Monsterrat;
   font-size: 14px;
   font-weight: 300;
-}
-.topbar__navbar a:hover {
-  color: #c7b29a;
+  color: #fff;
 }
 .navbar__icons {
   float: right;
   display: inline-block;
   margin-left: 60px;
+}
+.header__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1024px;
+}
+.header__main > article {
+  width: 580px;
+}
+.header__main > article .button {
+  margin-top: 50px;
+}
+.header__main i {
+  height: 800px;
+  line-height: 800px;
+  vertical-align: middle;
+}
+.header__main .fa-angle-right {
+  margin-left: 450px;
+}
+.header__main .fa-angle-left {
+  margin-right: 450px;
+}
+.header__main a {
+  color: #fff;
 }
 .main__section:nth-child(2n) {
   background-color: #fbfaf8;
