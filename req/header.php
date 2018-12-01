@@ -26,6 +26,8 @@
         </div>
     </div>
     
+    <div class="cls"></div>
+    
     <div class="header__main">
         <a href="#">
             <i class="fas fa-angle-left fa-7x"></i>
@@ -48,6 +50,20 @@
     </div>
     
     <div class="header__bottom">
-        
+        <div class="wrap">
+            <div class="bullet"></div>
+        </div>
+        <div class="wrap">
+            <div class="bullet"></div>
+        </div>
+        <div class="wrap">
+            <div class="bullet"></div>
+        </div>
+        <div class="wrap">
+            <div class="bullet"></div>
+        </div>
+        <div class="wrap">
+            <div class="bullet"></div>
+        </div>
     </div>
 </header>

@@ -1,6 +1,6 @@
 //-------------------- General --------------------\\
 
-// ADD FONTFAMILIES
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
 
 * {
     padding: 0;
@@ -56,7 +56,7 @@ a:hover {
 }
 
 p {
-    font-family: Monsterrat;
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -97,7 +97,6 @@ header {
     box-sizing: border-box;
     line-height: 56px;
     vertical-align: middle;
-    position: absolute;
 }
 
 .topbar__logo {
@@ -120,7 +119,7 @@ header {
         display: inline-block;
         vertical-align: middle;
         margin-right: 30px;
-        font-family: Monsterrat;
+        font-family: Montserrat;
         font-size: 14px;
         font-weight: 300;
         color: #fff;
@@ -137,7 +136,6 @@ header {
     display:flex;
     justify-content:center;
     align-items:center;
-    height: 1024px;
     > article {
         width: 580px;
         .button {
@@ -145,8 +143,8 @@ header {
         }
     }
     i {
-        height: 800px;
-        line-height: 800px;
+        height: 752px;
+        line-height: 752px;
         vertical-align: middle;
     }
     .fa-angle-right {
@@ -161,7 +159,38 @@ header {
 }
 
 .header__bottom {
-    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1920px;
+    height: 136px;
+    > .wrap {
+        line-height: 15px;
+        vertical-align: middle;
+        height: 15px;
+        width: 15px;
+        box-sizing: border-box;
+        border: 2px solid #d3c1ad;
+        border-radius: 50%;
+        visibility: hidden;
+        margin-right: 5px;
+        > .bullet {
+            vertical-align: middle;
+            box-sizing: border-box;
+            height: 11px;
+            width: 11px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 2px none #d3c1ad;
+            visibility: visible;
+        }
+    }
+    > .wrap:hover {
+        visibility: visible;
+        > .bullet {
+            visibility: hidden;
+        }
+    }
 }
 
 //-------------------- Footer --------------------\\
