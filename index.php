@@ -55,6 +55,25 @@
             </form>
         </section>
         
+        <section class="figs">
+            <div class="figs__top">
+                <?php foreach($figs as $fg): ?>
+                    <figure>
+                        <i></i>
+                        <figcaption>
+                            
+                        </figcaption>
+                        
+                        <p></p>
+                    </figure>
+                <?php endforeach ?>
+            </div>
+            
+            <h2></h2>
+            <p></p>
+            <img src="#" alt="figs.png">
+        </section>
+        
         <?php require("req/footer.php") ?>
     </body>
 </html>

@@ -1,4 +1,5 @@
 <?php
+        //buttons for navigation pannel
     $navbutts = [
         [
             'text' => 'Home',
@@ -26,4 +27,25 @@
             'link' => '#'
         ],
     ];
+    
+        // figures
+    $figs = [
+        [
+            'class' => '',
+            'title' => '',
+            'text'  => ''
+        ],[
+            'class' => '',
+            'title' => '',
+            'text'  => ''
+        ],[
+            'class' => '',
+            'title' => '',
+            'text'  => ''
+        ],[
+            'class' => '',
+            'title' => '',
+            'text'  => ''
+        ],
+    ]
 ?>
