@@ -128,5 +128,19 @@
                 <li></li>
             </ul>
         </section>
+        
+        <section class="stats">
+            <?php foreach($stats as $i): ?>
+                <figure>
+                    <img src="" alt="">
+                    <figurecaption>
+                        
+                    </figurecaption>
+                    <!-- use :after for border bottom -->
+                </figure>
+            <?php endforeach ?>
+        </section>
+        
+        
     </body>
 </html>

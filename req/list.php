@@ -31,19 +31,19 @@
         // figures
     $figs = [
         [
-            'class' => '',
+            'icon' => '',
             'title' => '',
             'text'  => ''
         ],[
-            'class' => '',
+            'icon' => '',
             'title' => '',
             'text'  => ''
         ],[
-            'class' => '',
+            'icon' => '',
             'title' => '',
             'text'  => ''
         ],[
-            'class' => '',
+            'icon' => '',
             'title' => '',
             'text'  => ''
         ],
@@ -76,4 +76,28 @@
             'p1'    => ''
         ]
     ];
+
+    $stats {
+        [
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ]
+    };
 ?>
