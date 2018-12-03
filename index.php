@@ -101,6 +101,18 @@
             <button></button>
         </section>
         
+        <section class="video">
+            <div class="video__button">
+                <i></i>
+            </div>
+            
+            <h1></h1>
+            <p1></p1>
+            <div class="video__timer">
+                
+            </div>
+        </section>
+        
         <?php require("req/footer.php") ?>
     </body>
 </html>
