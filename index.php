@@ -170,5 +170,12 @@
             <a href=""><img src="" alt=""></a>
             <a href=""><img src="" alt=""></a>
         </section>
+        
+        <footer>
+            <div class="footer_col"></div>
+            <div class="footer_col"></div>
+            <div class="footer_col"></div>
+            <div class="footer_col"></div>
+        </footer>
     </body>
 </html>
