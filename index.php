@@ -141,6 +141,34 @@
             <?php endforeach ?>
         </section>
         
+        <section class="recent">
+            <h1></h1>
+            <p></p>
+            
+            <div class="articles">
+                <?php foreach($recent as $i): ?>
+                    <article>
+                        <img src="" alt="">
+                        <h2></h2>
+                        <p></p>
+                        <a href="">
+                            Read more >
+                        </a>
+                    </article>
+                <?php endforeach ?>
+            </div>
+            
+            <div class="recent__buttons">
+                <button></button>
+                <button></button>
+            </div>
+        </section>
         
+        <section class="brands">
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+        </section>
     </body>
 </html>
