@@ -9,7 +9,51 @@
 
     <body>
         <?php require("req/list.php") ?>
-        <?php require("req/header.php") ?>
+        
+        <section class="header">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="logo.png">
+            </a>
+            
+            <div class="nav">
+                <ul>
+                    <?php foreach($navbutts as $button): ?>
+                        <li>
+                            <a href="<?php echo $button['link']?>">
+                            <?php echo $button['text']?>
+                            </a>
+                        </li>
+                    <?php endforeach ?>
+                </ul>
+                
+                <a href="#" class="nav__cart"></a>
+                <form action="#">
+                    <input type="search">
+                </form>
+            </div>
+            
+            <section class="header__slider">
+                <div class="button-left">
+                    
+                </div>
+                
+                <div class="text">
+                    <h2></h2>
+                    <h1></h1>
+                    <p></p>
+                    
+                    <button></button>
+                </div>
+                
+                <div class="button-right">
+                    
+                </div>
+            </section>
+            
+            <form action="#">
+                <input type="radio">
+            </form>
+        </section>
         
         <?php require("req/footer.php") ?>
     </body>
