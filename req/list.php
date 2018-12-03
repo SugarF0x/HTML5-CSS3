@@ -49,14 +49,6 @@
         ],
     ];
 
-    $latest = [
-        'All',
-        'Web Design',
-        'Mobile App',
-        'Illustration',
-        'Photography'
-    ];
-
     $articles = [
         [
             'img'   => '',

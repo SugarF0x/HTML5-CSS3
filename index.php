@@ -83,9 +83,11 @@
             <p></p>
             
             <div class="latest__buttons">
-                <?php foreach($latest as $i): ?>
-                    <button></button>
-                <?php endforeach ?>
+                <button>All</button>
+                <button>Web Design</button>
+                <button>Mobile App</button>
+                <button>Illustration</button>
+                <button>Photography</button>
             </div>
             
             <div class="articles">
@@ -113,6 +115,18 @@
             </div>
         </section>
         
-        <?php require("req/footer.php") ?>
+        <section class="hand">
+            <img src="" alt="hand.png">
+            
+            <h2></h2>
+            <p></p>
+            
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
     </body>
 </html>
