@@ -56,22 +56,49 @@
         </section>
         
         <section class="figs">
-            <div class="figs__top">
-                <?php foreach($figs as $fg): ?>
-                    <figure>
-                        <i></i>
-                        <figcaption>
-                            
-                        </figcaption>
-                        
-                        <p></p>
-                    </figure>
-                <?php endforeach ?>
-            </div>
-            
+            <?php foreach($figs as $fg): ?>
+                <figure>
+                    <i></i>
+                    <figcaption>
+
+                    </figcaption>
+
+                    <p></p>
+                </figure>
+            <?php endforeach ?>
+        </section>
+           
+        <section class="ideas">    
             <h2></h2>
             <p></p>
             <img src="#" alt="figs.png">
+            
+            <div class="ideas__bottom">
+                
+            </div>
+        </section>        
+        
+        <section class="latest">
+            <h1></h1>
+            <p></p>
+            
+            <div class="latest__buttons">
+                <?php foreach($latest as $i): ?>
+                    <button></button>
+                <?php endforeach ?>
+            </div>
+            
+            <div class="articles">
+                <?php foreach($articles as $i): ?>
+                    <article>
+                        <img src="" alt="">
+                        <h1></h1>
+                        <p></p>
+                    </article>
+                <?php endforeach ?>
+            </div>
+            
+            <button></button>
         </section>
         
         <?php require("req/footer.php") ?>
