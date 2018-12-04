@@ -36,27 +36,29 @@
                 </div>
             </div>
             
-            <section class="header__slider">
-                <div class="button-left">
-                    
-                </div>
-                
-                <div class="text">
-                    <h2></h2>
-                    <h1></h1>
-                    <p></p>
-                    
-                    <button></button>
-                </div>
-                
-                <div class="button-right">
-                    
-                </div>
-            </section>
+            <div class="wrapper">
+                <section class="header__slider">
+                    <div class="arrow">
+                        <i class="fas fa-angle-left fa-7x"></i>
+                    </div>
+
+                    <div class="text">
+                        <h2>Unique and Modern Design</h2>
+                        <h1>Portfolio PSD Template</h1>
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+                        <button>Get Started</button>
+                    </div>
+
+                    <div class="arrow">
+                        <i class="fas fa-angle-right fa-7x"></i>
+                    </div>
+                </section>
+            </div>
             
-            <form action="#">
+            <!-- <form action="#">
                 <input type="radio">
-            </form>
+            </form> -->
         </header>
         
         <section class="figs">

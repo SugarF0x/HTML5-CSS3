@@ -11,17 +11,60 @@ body {
   font-size: 16px;
   margin: 0 auto;
 }
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+p {
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 20px 0;
+}
+button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #998675;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom-width: 3px;
+  margin: 5px 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #7F6F60;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+button:active {
+  background-color: #66584D;
+  border-color: rgba(0, 0, 0, 0.9);
+}
 header {
   background-image: url(../img/header-background.jpg);
   background-size: cover;
+  background-position: center;
   height: 1024px;
   padding: 40px;
+  color: #fff;
+  position: relative;
 }
 header .topbar {
   margin: 0 335px;
   height: 56px;
   line-height: 56px;
-  position: relative;
 }
 header .topbar .logo {
   height: 56px;
@@ -52,6 +95,41 @@ header .topbar .nav ul {
 header .topbar .nav ul li {
   display: inline-block;
   margin-right: 30px;
+}
+header .wrapper {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 15%;
+  left: 0;
+}
+header .wrapper .header__slider {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header .wrapper .header__slider .arrow {
+  display: inline-block;
+  margin: 0 300px;
+  padding: 100px;
+}
+header .wrapper .header__slider .arrow:hover {
+  color: #c7b29a;
+}
+header .wrapper .header__slider .text {
+  display: inline-block;
+  width: 600px;
+  margin: 0 auto;
+}
+header .wrapper .header__slider .text p {
+  width: 550px;
+  margin: 20px auto;
 }
 .main__section:nth-child(2n) {
   background-color: #fbfaf8;
