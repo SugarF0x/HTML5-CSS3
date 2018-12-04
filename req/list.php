@@ -77,7 +77,26 @@
         ]
     ];
 
-    $stats {
+    $recent = [
+        [
+            'img'   => '',
+            'title' => '',
+            'text'  => '',
+            'link' => ''
+        ],[
+            'img'   => '',
+            'title' => '',
+            'text'  => '',
+            'link' => ''
+        ],[
+            'img'   => '',
+            'title' => '',
+            'text'  => '',
+            'link' => ''
+        ]
+    ];
+
+    $stats = [
         [
             'icon'      => '',
             'number'    => '',
@@ -99,5 +118,5 @@
             'number'    => '',
             'text'      => ''
         ]
-    };
+    ];
 ?>

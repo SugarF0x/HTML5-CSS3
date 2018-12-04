@@ -10,7 +10,7 @@
     <body>
         <?php require("req/list.php") ?>
         
-        <section class="header">
+        <header>
             <a href="#" class="logo">
                 <img src="img/logo.png" alt="logo.png">
             </a>
@@ -53,7 +53,7 @@
             <form action="#">
                 <input type="radio">
             </form>
-        </section>
+        </header>
         
         <section class="figs">
             <?php foreach($figs as $fg): ?>
@@ -76,7 +76,7 @@
             <div class="ideas__bottom">
                 
             </div>
-        </section>        
+        </section>
         
         <section class="latest">
             <h1></h1>
