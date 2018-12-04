@@ -38,27 +38,31 @@
             
             <div class="wrapper">
                 <section class="header__slider">
-                    <div class="arrow">
+                    <span class="arrow">
                         <i class="fas fa-angle-left fa-7x"></i>
-                    </div>
+                    </span>
 
-                    <div class="text">
+                    <span class="text">
                         <h2>Unique and Modern Design</h2>
                         <h1>Portfolio PSD Template</h1>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
 
                         <button>Get Started</button>
-                    </div>
+                    </span>
 
-                    <div class="arrow">
+                    <span class="arrow">
                         <i class="fas fa-angle-right fa-7x"></i>
-                    </div>
+                    </span>
                 </section>
             </div>
             
-            <!-- <form action="#">
-                <input type="radio">
-            </form> -->
+            <form action="#">
+                <input name="slider" type="radio" checked>
+                <input name="slider" type="radio">
+                <input name="slider" type="radio">
+                <input name="slider" type="radio">
+                <input name="slider" type="radio">
+            </form>
         </header>
         
         <section class="figs">

@@ -72,6 +72,7 @@ header {
     padding: 40px;
     color: #fff;
     position: relative;
+    box-sizing: border-box;
     .topbar {
         margin: 0 335px;
         height: 56px;
@@ -124,7 +125,6 @@ header {
             align-items: center;
             text-align: center;
             .arrow {
-                display: inline-block;
                 margin: 0 300px;
                 padding: 100px;
             }
@@ -132,7 +132,6 @@ header {
                 color: #c7b29a;
             }
             .text {
-                display: inline-block;
                 width: 600px;
                 margin: 0 auto;
                 p {
@@ -140,6 +139,20 @@ header {
                     margin: 20px auto;
                 }
             }
+        }
+    }
+    form {
+        display:flex;
+        justify-content:center;
+        align-items:flex-end;
+        position: absolute;
+        left: 0;
+        top: 80%;
+        width:100%;
+        height:20%;
+        input {
+            margin: 0 10px;
+            margin-bottom: 40px;
         }
     }
 }
