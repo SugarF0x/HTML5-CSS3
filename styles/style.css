@@ -7,6 +7,51 @@
 body {
   width: 1920px;
   font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 auto;
+}
+header {
+  background-image: url(../img/header-background.jpg);
+  background-size: cover;
+  height: 1024px;
+  padding: 40px;
+}
+header .topbar {
+  margin: 0 335px;
+  height: 56px;
+  line-height: 56px;
+  position: relative;
+}
+header .topbar .logo {
+  height: 56px;
+  display: inline-block;
+}
+header .topbar .nav {
+  display: inline-block;
+  float: right;
+}
+header .topbar .nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 56px;
+}
+header .topbar .nav a i {
+  margin-left: 30px;
+}
+header .topbar .nav a:hover {
+  color: #c7b29a;
+}
+header .topbar .nav ul {
+  display: inline-block;
+}
+header .topbar .nav ul li {
+  display: inline-block;
+  margin-right: 30px;
 }
 .main__section:nth-child(2n) {
   background-color: #fbfaf8;

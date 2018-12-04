@@ -25,7 +25,7 @@
         ],[
             'text' => 'Contacts',
             'link' => '#'
-        ],
+        ]
     ];
     
         // figures

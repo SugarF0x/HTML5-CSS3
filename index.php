@@ -11,25 +11,29 @@
         <?php require("req/list.php") ?>
         
         <header>
-            <a href="#" class="logo">
-                <img src="img/logo.png" alt="logo.png">
-            </a>
-            
-            <div class="nav">
-                <ul>
-                    <?php foreach($navbutts as $button): ?>
-                        <li>
-                            <a href="<?php echo $button['link']?>">
-                            <?php echo $button['text']?>
-                            </a>
-                        </li>
-                    <?php endforeach ?>
-                </ul>
-                
-                <a href="#" class="nav__cart"></a>
-                <form action="#">
-                    <input type="search">
-                </form>
+            <div class="topbar">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="logo.png">
+                </a>
+
+                <div class="nav">
+                    <ul>
+                        <?php foreach($navbutts as $button): ?>
+                            <li>
+                                <a href="<?php echo $button['link']?>">
+                                <?php echo $button['text']?>
+                                </a>
+                            </li>
+                        <?php endforeach ?>
+                    </ul>
+
+                    <a href="#">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
             </div>
             
             <section class="header__slider">

@@ -10,12 +10,54 @@
 body {
     width: 1920px;
     font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 auto;
 }
 
 //------------------ Header ------------------\\
 
 header {
-    
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    height: 1024px;
+    padding: 40px;
+    .topbar {
+        margin: 0 335px;
+        height: 56px;
+        line-height: 56px;
+        position: relative;
+        .logo {
+            height: 56px;
+            display: inline-block;
+        }
+        .nav {
+            display: inline-block;
+            float: right;
+            a {
+                display: inline-block; 
+                text-decoration: none;
+                color: #fff;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 56px;
+                i {
+                    margin-left: 30px;
+                }
+            }
+            a:hover {
+                color: #c7b29a;
+            }
+            ul {
+                display: inline-block; 
+                li {
+                    display: inline-block;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
 }
 
 //------------------ Footer ------------------\\
