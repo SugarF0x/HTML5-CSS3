@@ -56,13 +56,20 @@
                 </section>
             </div>
             
-            <form action="#">
-                <input name="slider" type="radio" checked>
-                <input name="slider" type="radio">
-                <input name="slider" type="radio">
-                <input name="slider" type="radio">
-                <input name="slider" type="radio">
-            </form>
+            <!-- 
+                <form action="#">
+                    <input id="slider1" name="slider" type="radio" checked>
+                        <label for="slider1"></label>
+                    <input id="slider2" name="slider" type="radio">
+                        <label for="slider2"></label>
+                    <input id="slider3" name="slider" type="radio">
+                        <label for="slider3"></label>
+                    <input id="slider4" name="slider" type="radio">
+                        <label for="slider4"></label>
+                    <input id="slider5" name="slider" type="radio">
+                        <label for="slider5"></label>
+                </form>
+            -->
         </header>
         
         <section class="figs">
