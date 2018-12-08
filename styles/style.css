@@ -183,6 +183,34 @@ header .wrapper .header__slider .text p {
   width: 550px;
   margin: 20px auto;
 }
-.main__section:nth-child(2n) {
+.figs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+.figs figure {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #555;
+}
+.figs figure p {
+  margin: 0 10%;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.figs figure figcaption {
+  margin: 15px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.figs figure:hover {
+  color: #c7b299;
+}
+body > section:nth-of-type(2n) {
   background-color: #fbfaf8;
 }

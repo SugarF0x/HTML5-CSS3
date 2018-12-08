@@ -75,12 +75,14 @@
         <section class="figs">
             <?php foreach($figs as $fg): ?>
                 <figure>
-                    <i></i>
+                    <?php echo $fg['icon'] ?>
                     <figcaption>
-
+                        <?php echo $fg['title'] ?>
                     </figcaption>
 
-                    <p></p>
+                    <p>
+                        <?php echo $fg['text'] ?>
+                    </p>
                 </figure>
             <?php endforeach ?>
         </section>

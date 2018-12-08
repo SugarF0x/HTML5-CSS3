@@ -31,21 +31,21 @@
         // figures
     $figs = [
         [
-            'icon' => '',
-            'title' => '',
-            'text'  => ''
+            'icon' => '<i class="fas fa-pen-nib fa-3x"></i>',
+            'title' => 'Web & App design',
+            'text'  => 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.'
         ],[
-            'icon' => '',
-            'title' => '',
-            'text'  => ''
+            'icon' => '<i class="fas fa-database fa-3x"></i>',
+            'title' => 'Development',
+            'text'  => 'Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.'
         ],[
-            'icon' => '',
-            'title' => '',
-            'text'  => ''
+            'icon' => '<i class="fas fa-cog fa-3x"></i>',
+            'title' => 'Customization',
+            'text'  => 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.'
         ],[
-            'icon' => '',
-            'title' => '',
-            'text'  => ''
+            'icon' => '<i class="fas fa-folder-open fa-3x"></i>',
+            'title' => 'Marketing',
+            'text'  => 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.'
         ],
     ];
 
