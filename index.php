@@ -88,9 +88,11 @@
         </section>
            
         <section class="ideas">    
-            <h2></h2>
-            <p></p>
-            <img src="#" alt="figs.png">
+            <h2>Waxom is Realization of your Ideas.</h2>
+            <p>
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+            </p>
+            <img src="img/ideas.png" alt="ideas.png">
             
             <div class="ideas__bottom">
                 
