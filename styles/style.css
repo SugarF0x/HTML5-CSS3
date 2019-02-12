@@ -61,70 +61,18 @@ header {
   color: #fff;
   position: relative;
   box-sizing: border-box;
-  /*
-    form {
-        display:flex;
-        justify-content:center;
-        align-items:flex-end;
-        left: 0;
-        top: 80%;
-        width:100%;
-        height:20%;
-        input {
-            margin: 0 10px;
-            margin-bottom: 40px;
-        }
-        label {
-            position: relative;
-            cursor: pointer;
-            line-height: 20px;
-            display: inline-block;
-            color: #666;
-        }
-        label::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 18px;
-            height: 18px;
-            border: 1px solid #ddd;
-            border-radius: 100%;
-            background: #fff;
-        }
-        label::after {
-            content: '';
-            width: 12px;
-            height: 12px;
-            background: #F87DA9;
-            position: absolute;
-            top: 4px;
-            left: 4px;
-            border-radius: 100%;
-            -webkit-transition: all 0.2s ease;
-            transition: all 0.2s ease;
-        }
-        input:checked + label:after {
-            opacity: 1;
-            -webkit-transform: scale(1);
-            transform: scale(1);
-        }
-        input:not(:checked) + label:after {
-            opacity: 0;
-            -webkit-transform: scale(0);
-            transform: scale(0);
-        }
-    }
-*/
 }
 header .topbar {
   margin: 0 5%;
   height: 56px;
   line-height: 56px;
+  display: flex;
+  justify-content: center;
 }
 header .topbar .logo {
   height: 56px;
   display: inline-block;
+  margin-right: 50px;
 }
 header .topbar .nav {
   display: inline-block;
@@ -170,14 +118,13 @@ header .wrapper .header__slider {
   text-align: center;
 }
 header .wrapper .header__slider .arrow {
-  padding: 100px;
+  padding: 125px;
 }
 header .wrapper .header__slider .arrow:hover {
   color: #c7b29a;
 }
 header .wrapper .header__slider .text {
   width: 600px;
-  margin: 0 auto;
 }
 header .wrapper .header__slider .text p {
   width: 550px;
@@ -218,8 +165,8 @@ header .wrapper .header__slider .text p {
   align-items: center;
 }
 .ideas img {
-  height: 100%;
-  width: 75%;
+  min-width: 25%;
+  max-width: 85%;
 }
 .ideas h1 {
   color: #555;
