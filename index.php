@@ -4,253 +4,199 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <title>Макет переделанный</title>
+        <title>Waxom</title>
     </head>
 
     <body>
-        <?php require('req/header.php'); ?>
+        <?php require("req/list.php") ?>
         
-        <main>
-            <section class="about">
-               <div class="aboutImage placeholderImage">
-                    <!-- A placeholder for the image -->
-                </div>
-                
-                <h1>About yor product</h1>
-                
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae illum eum repellendus consequatur quasi. Quae dolorum illum, porro aut tenetur. Animi laborum, aspernatur optio molestiae, cupiditate error porro sint quae quos ea iure mollitia rerum sapiente ullam quasi neque exercitationem!
-                </p>
-                
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat modi facilis, magni maiores aperiam assumenda nemo aut voluptatem qui repellendus!
-                </p>
-                
-                <div class="cls"></div>
-            </section>
-                
-            <section class="pluses">
-                <h1>Dignity and pluses</h1>
-                
-                <ul>
-                    <li>
-                        <i class="fas fa-plus-square"></i>
-                        
-                        <p>
-                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
-                        </p>
-                    </li>
-                    <li>
-                        <i class="fas fa-plus-square"></i>
-                        
-                        <p>
-                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
-                        </p>
-                    </li>
-                    <li>
-                        <i class="fas fa-plus-square"></i>
-                        
-                        <p>
-                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
-                        </p>
-                    </li>
-                </ul>
-                
-                <ul>
-                    <li>
-                        <i class="fas fa-plus-square"></i>
-                        
-                        <p>
-                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
-                        </p>
-                    </li>
-                    <li>
-                        <i class="fas fa-plus-square"></i>
-                        
-                        <p>
-                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
-                        </p>
-                    </li>
-                    <li>
-                        <i class="fas fa-plus-square"></i>
-                        
-                        <p>
-                            Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam. Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore.
-                        </p>
-                    </li>
-                </ul>
-                
-                <div class="cls"></div>
-            </section>
-            
-            <section class="screenshots">
-                <h1>Screenshots</h1>
-                
-                <article>
-                    <div class="placeholderImage">
-                        <!-- Placeholder for the image -->
-                    </div>
-                    
-                    <h2>The Description of the image</h2>
-                    
-                    <p>
-                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
-                    </p>
-                </article>
-                
-                <article>
-                    <div class="placeholderImage">
-                        <!-- Placeholder for the image -->
-                    </div>
-                    
-                    <h2>The Description of the image</h2>
-                    
-                    <p>
-                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
-                    </p>
-                </article>
-                
-                <article>
-                    <div class="placeholderImage">
-                        <!-- Placeholder for the image -->
-                    </div>
-                    
-                    <h2>The Description of the image</h2>
-                    
-                    <p>
-                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
-                    </p>
-                </article>
-                
-                <article>
-                    <div class="placeholderImage">
-                        <!-- Placeholder for the image -->
-                    </div>
-                    
-                    <h2>The Description of the image</h2>
-                    
-                    <p>
-                        Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo.
-                    </p>
-                </article>
-                
-                <div class="cls"></div>
-            </section>
-            
-            <section class="reviews">
-                <h1>Reviews</h1>
-                
-                <article>
-                    <div class="img">
-                        <i class="far fa-user-circle"></i>
-                    </div>
-                    
-                    <div class="textbox">
-                        <p>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-                        </p>
+        <header>
+            <div class="topbar">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" alt="logo.png">
+                </a>
 
-                        <h3>
-                            Lourens S.
-                        </h3>
-                    </div>
-                </article>
-                
-                <article>
-                    <div class="img">
-                        <i class="far fa-user-circle"></i>
-                    </div>
-                    
-                    <div class="textbox">
-                        <p>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-                        </p>
-
-                        <h3>
-                            Lourens S.
-                        </h3>
-                    </div>
-                </article>
-                
-                <article>
-                    <div class="img">
-                        <i class="far fa-user-circle"></i>
-                    </div>
-                    
-                    <div class="textbox">
-                        <p>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-                        </p>
-
-                        <h3>
-                            Lourens S.
-                        </h3>
-                    </div>
-                </article>
-                
-                <article>
-                    <div class="img">
-                        <i class="far fa-user-circle"></i>
-                    </div>
-                    
-                    <div class="textbox">
-                        <p>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
-                        </p>
-
-                        <h3>
-                            Lourens S.
-                        </h3>
-                    </div>
-                </article>
-                
-                <div class="cls"></div>
-            </section>
-            
-            <section class="buy">
-                <h1>Buy now</h1>
-                
-                <div>
-                    <?php
-                        require('req/list.php');
-                        foreach($list as $ls):
-                    ?>
-
-                            <section>
-                                <h1>
-                                    <?php
-                                        echo $ls['name'];
-                                    ?>
-                                </h1>
-
-                                <h2>
-                                    <?php
-                                        echo '$';
-                                        echo $ls['price'];
-                                    ?>
-                                </h2>
-
-                                <ul>
-                                    <?php
-                                        for ($i=1; $i<=$ls['bullets']; $i++):
-                                    ?>
-                                        <li><?php echo $texts[$i-1] ?></li>
-                                    <?php
-                                        endfor;
-                                    ?>
-                                </ul>
-                                
-                                <a href="#">
-                                    BUY
+                <div class="nav">
+                    <ul>
+                        <?php foreach($navbutts as $button): ?>
+                            <li>
+                                <a href="<?php echo $button['link']?>">
+                                <?php echo $button['text']?>
                                 </a>
-                            </section>
-                    <?php endforeach ?>
+                            </li>
+                        <?php endforeach ?>
+                    </ul>
+
+                    <a href="#">
+                        <i class="fas fa-shopping-bag"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
                 </div>
-                
-                <div class="cls"></div>
-            </section>
-        </main>
+            </div>
+            
+            <div class="wrapper">
+                <section class="header__slider">
+                    <span class="arrow">
+                        <i class="fas fa-angle-left fa-7x"></i>
+                    </span>
+
+                    <span class="text">
+                        <h2>Unique and Modern Design</h2>
+                        <h1>Portfolio PSD Template</h1>
+                        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+
+                        <button>Get Started</button>
+                    </span>
+
+                    <span class="arrow">
+                        <i class="fas fa-angle-right fa-7x"></i>
+                    </span>
+                </section>
+            </div>
+            
+            <!-- 
+                <form action="#">
+                    <input id="slider1" name="slider" type="radio" checked>
+                        <label for="slider1"></label>
+                    <input id="slider2" name="slider" type="radio">
+                        <label for="slider2"></label>
+                    <input id="slider3" name="slider" type="radio">
+                        <label for="slider3"></label>
+                    <input id="slider4" name="slider" type="radio">
+                        <label for="slider4"></label>
+                    <input id="slider5" name="slider" type="radio">
+                        <label for="slider5"></label>
+                </form>
+            -->
+        </header>
         
-        <?php require('req/footer.php'); ?>
+        <section class="figs">
+            <?php foreach($figs as $fg): ?>
+                <figure>
+                    <?php echo $fg['icon'] ?>
+                    <figcaption>
+                        <?php echo $fg['title'] ?>
+                    </figcaption>
+
+                    <p>
+                        <?php echo $fg['text'] ?>
+                    </p>
+                </figure>
+            <?php endforeach ?>
+        </section>
+           
+        <section class="ideas">    
+            <h2>Waxom is Realization of your Ideas.</h2>
+            <p>
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+            </p>
+            <img src="img/ideas.png" alt="ideas.png">
+            
+            <div class="ideas__bottom">
+                
+            </div>
+        </section>
+        
+        <section class="latest">
+            <h1></h1>
+            <p></p>
+            
+            <div class="latest__buttons">
+                <button>All</button>
+                <button>Web Design</button>
+                <button>Mobile App</button>
+                <button>Illustration</button>
+                <button>Photography</button>
+            </div>
+            
+            <div class="articles">
+                <?php foreach($articles as $i): ?>
+                    <article>
+                        <img src="" alt="">
+                        <h1></h1>
+                        <p></p>
+                    </article>
+                <?php endforeach ?>
+            </div>
+            
+            <button></button>
+        </section>
+        
+        <section class="video">
+            <div class="video__button">
+                <i></i>
+            </div>
+            
+            <h1></h1>
+            <p1></p1>
+            <div class="video__timer">
+                
+            </div>
+        </section>
+        
+        <section class="hand">
+            <img src="" alt="hand.png">
+            
+            <h2></h2>
+            <p></p>
+            
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        
+        <section class="stats">
+            <?php foreach($stats as $i): ?>
+                <figure>
+                    <img src="" alt="">
+                    <figurecaption>
+                        
+                    </figurecaption>
+                    <!-- use :after for border bottom -->
+                </figure>
+            <?php endforeach ?>
+        </section>
+        
+        <section class="recent">
+            <h1></h1>
+            <p></p>
+            
+            <div class="articles">
+                <?php foreach($recent as $i): ?>
+                    <article>
+                        <img src="" alt="">
+                        <h2></h2>
+                        <p></p>
+                        <a href="">
+                            Read more >
+                        </a>
+                    </article>
+                <?php endforeach ?>
+            </div>
+            
+            <div class="recent__buttons">
+                <button></button>
+                <button></button>
+            </div>
+        </section>
+        
+        <section class="brands">
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+        </section>
+        
+        <footer>
+            <div class="footer_col"></div>
+            <div class="footer_col"></div>
+            <div class="footer_col"></div>
+            <div class="footer_col"></div>
+        </footer>
     </body>
 </html>

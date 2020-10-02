@@ -1,33 +1,122 @@
 <?php
-    $list = [
+        //buttons for navigation pannel
+    $navbutts = [
         [
-            'name' => 'Standart',
-            'price' => 100,
-            'bullets' => 4
+            'text' => 'Home',
+            'link' => '#'
         ],[
-            'name' => 'Premium',
-            'price' => 150,
-            'bullets' => 8
+            'text' => 'About Us',
+            'link' => '#'
         ],[
-            'name' => 'Lux',
-            'price' => 200,
-            'bullets' => 12
+            'text' => 'Portfolio',
+            'link' => '#'
+        ],[
+            'text' => 'Features',
+            'link' => '#'
+        ],[
+            'text' => 'Blog',
+            'link' => '#'
+        ],[
+            'text' => 'Pricing',
+            'link' => '#'
+        ],[
+            'text' => 'Shortcodes',
+            'link' => '#'
+        ],[
+            'text' => 'Contacts',
+            'link' => '#'
         ]
-        
+    ];
+    
+        // figures
+    $figs = [
+        [
+            'icon' => '<i class="fas fa-pen-nib fa-3x"></i>',
+            'title' => 'Web & App design',
+            'text'  => 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.'
+        ],[
+            'icon' => '<i class="fas fa-database fa-3x"></i>',
+            'title' => 'Development',
+            'text'  => 'Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.'
+        ],[
+            'icon' => '<i class="fas fa-cog fa-3x"></i>',
+            'title' => 'Customization',
+            'text'  => 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.'
+        ],[
+            'icon' => '<i class="fas fa-folder-open fa-3x"></i>',
+            'title' => 'Marketing',
+            'text'  => 'Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.'
+        ],
     ];
 
-    $texts = [
-        'Porro officia cumque sint deleniti;',
-        'Тemo facere rem vitae odit;',
-        'Cum odio, iste quia doloribus autem;',
-        'Aperiam nulla ea neque.',
-        'Porro officia cumque sint deleniti;',
-        'Тemo facere rem vitae odit;',
-        'Cum odio, iste quia doloribus autem;',
-        'Aperiam nulla ea neque.',
-        'Porro officia cumque sint deleniti;',
-        'Тemo facere rem vitae odit;',
-        'Cum odio, iste quia doloribus autem;',
-        'Aperiam nulla ea neque.'
-    ]
+    $articles = [
+        [
+            'img'   => '',
+            'h1'    => '',
+            'p1'    => ''
+        ],[
+            'img'   => '',
+            'h1'    => '',
+            'p1'    => ''
+        ],[
+            'img'   => '',
+            'h1'    => '',
+            'p1'    => ''
+        ],[
+            'img'   => '',
+            'h1'    => '',
+            'p1'    => ''
+        ],[
+            'img'   => '',
+            'h1'    => '',
+            'p1'    => ''
+        ],[
+            'img'   => '',
+            'h1'    => '',
+            'p1'    => ''
+        ]
+    ];
+
+    $recent = [
+        [
+            'img'   => '',
+            'title' => '',
+            'text'  => '',
+            'link' => ''
+        ],[
+            'img'   => '',
+            'title' => '',
+            'text'  => '',
+            'link' => ''
+        ],[
+            'img'   => '',
+            'title' => '',
+            'text'  => '',
+            'link' => ''
+        ]
+    ];
+
+    $stats = [
+        [
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ],[
+            'icon'      => '',
+            'number'    => '',
+            'text'      => ''
+        ]
+    ];
 ?>
